@@ -1,0 +1,48 @@
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.local/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# MyPy / Pyright / type-checking
+.mypy_cache/
+.pyright/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / packaging (not usually needed for simple FastAPI on Render)
+build/
+dist/
+*.egg-info/
